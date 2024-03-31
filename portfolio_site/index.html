@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact"></a>Contact</li>
+        </ul>
+    </nav>
+    
+
+<section id="home" class="welcome-section">
+    <h2>Welcome to My Portfolio</h2>
+    <p>This is where you can find all my amazing work!</p>
+</section>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="photo1.png">
+        <img src="photo1.png" alt="Cinque Terre">
+      </a>
+      <div class="desc">Shelby Farm Park Memphis Tennessee</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="photo2.JPG">
+        <img src="photo2.JPG" alt="Forest">
+      </a>
+      <div class="desc">The beautiful landscape of Meisterschwanden Switzerland</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="photo3.png">
+        <img src="photo3.png" alt="Northern Lights">
+      </a>
+      <div class="desc">Duck Family at Shelby Farm Park</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="photo4.png">
+        <img src="photo4.png" alt="Mountains">
+      </a>
+      <div class="desc">The attractive city of Berne  Switzerland</div>
+    </div>
+  </div>
+  
+  <div class="clearfix"></div>
+<br>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="first_name" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="last_name" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

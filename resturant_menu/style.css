@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FF5733;
+    color: rgb(11, 213, 45);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.category  {
+    background-color: #F5F733;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.category h2{
+    color: #271010;
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.category ul {
+     list-style-type:  none;
+}
+.category li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.category li ::before{
+    content: attr(data-price);
+    float: right;
+    color: #808080;
+}

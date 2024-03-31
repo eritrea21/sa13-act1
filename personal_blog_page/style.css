@@ -1,0 +1,43 @@
+/*default margin and padding */
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style for header */
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Style for the main content*/
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+article{
+    margin-bottom: 40px;
+}
+/* Style for the text in main content*/
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+h2 {
+     font-size: 20px;
+     margin-bottom: 10px;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
