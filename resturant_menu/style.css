@@ -1,38 +1,50 @@
-* {
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-header{
-    background-color: #FF5733;
-    color: rgb(11, 213, 45);
+  }
+  
+  header {
+    background-color: #5fe468; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+  }
+  footer{
+    background-color: #5fe468;
+    color: white;
     padding: 20px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-.category  {
-    background-color: #F5F733;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.category h2{
-    color: #271010;
-    font-size: 24px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  
+  li {
     margin-bottom: 10px;
-    
-}
-.category ul {
-     list-style-type:  none;
-}
-.category li {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-.category li ::before{
-    content: attr(data-price);
-    float: right;
-    color: #808080;
-}
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    font-size: 16px;
+  }
+  list-header{
+    font-family: cursive;
+  }
+  
+ 
+  
+
+ 
+  
+  

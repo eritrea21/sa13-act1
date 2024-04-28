@@ -6,6 +6,8 @@
         "Caprese",
         "Carbonara",
         "Elon",
-        "Meisterschwanden"
-    ]
+        "Meisterschwanden",
+        "Stargate"
+    ],
+    "liveServer.settings.port": 5501
 }
