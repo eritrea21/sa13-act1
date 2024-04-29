@@ -79,7 +79,7 @@ form button:hover {
   width: 100%;
   height: auto;
   transition: transform 0.3s;
-  border-radius: 20;
+  border-radius: 50%;
 }
 
 .gallery-item img:hover {
@@ -120,14 +120,14 @@ form button {
   grid-gap: 16px;
   max-width: 1000px;
   margin: auto;
-  border-radius: 20;
+  border-radius: 20%;
 }
 
 .gallery-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20;
+  border-radius: 20%;
 }
 
 .gallery-item img {
@@ -135,4 +135,5 @@ form button {
   
   height: auto;
   border-radius: 50px 10px;
+  
 }
